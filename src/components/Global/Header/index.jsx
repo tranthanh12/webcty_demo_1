@@ -5,14 +5,12 @@ import { useRouter } from 'next/router';
 
 const Index = () => {
     const [ActiveBtn, Setactive] = useState(false)
-    const btnToggle = ()=>{
-        Setactive(!ActiveBtn)
-    }
+    const [ActiveMenu, setActiveMenu] = useState(false)
 
     const router = useRouter();
-    useEffect (()=>{
+    useEffect(() => {
         Setactive(router.pathname)
-    },[router])
+    }, [router])
 
 
     return (
@@ -48,6 +46,28 @@ const Index = () => {
                                     </li>
                                 </ul>
                             </div>
+
+                            <div id="myNav" style={{ height: `${ActiveMenu ? '55%' : '0px'}` }} className="overlay">
+                                <div className='menu_mobile_top'>
+                                    <div className='Logo_mobile'>
+                                        <img src="/images/header/Frame 14.svg" alt="" />
+                                    </div>
+
+                                    <a href="javascript:void(0)" className="closebtn" onClick={() => setActiveMenu(!ActiveMenu)}>
+                                        ×
+                                    </a>
+                                </div>
+                                <div className="overlay-content">
+                                    <Link className='link_menu_mobile' href="/services">Services</Link>
+                                    <Link className='link_menu_mobile' href="/Industrie">Industries</Link>
+                                    <Link className='link_menu_mobile' href="/aboutus">About Us</Link>
+                                    <Link className='link_menu_mobile' href="/recruitment">Recruitment</Link>
+                                    <Link className='link_menu_mobile' href="/contacts">Contact us</Link>
+                                </div>
+                            </div>
+                            <span style={{ fontSize: 22, cursor: "pointer" }} onClick={() => setActiveMenu(!ActiveMenu)}>
+                                ☰
+                            </span>
                         </div>
                     </div>
                 </div>

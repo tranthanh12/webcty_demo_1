@@ -12,6 +12,81 @@ body {
   background: rgba(241, 248, 255, 1);
 }
 
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-y: hidden;
+  transition: 0.5s;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.3);
+}
+
+.overlay-content {
+  position: relative;
+  top: -3.8%;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 20px 8px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay .link_menu_mobile {
+  padding: 15px 8px;
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  border-bottom: 0.1rem solid #cacaca;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -30px;
+  right: -2px;
+  font-size: 55px;
+}
+
+.Logo_mobile {
+  position: absolute;
+  top: 9px;
+  left: 12px;
+  width: 80px;
+}
+
+.menu_mobile_top {
+  border-bottom: .1rem solid #cacaca;
+  height: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
 .angle-backdrop-high {
   position: absolute;
   width: 100%;
@@ -2190,7 +2265,7 @@ html {
   .navbar {
     background: rgba(0, 0, 0, 3);
   }
-  
+
 }
 
 .navbar:not(.navbar--not-found):hover .custom-button-contact {
@@ -2218,7 +2293,7 @@ html {
   width: 100%;
   position: relative;
   z-index: 1;
-  padding: 1.6rem 0
+  padding: 1.4rem 0
 }
 
 @media screen and (min-width: 992px) {
@@ -4438,7 +4513,7 @@ element.style {
     background: rgba(0, 0, 0, 0.3);
   }
 
-  .navbar:hover{
+  .navbar:hover {
     background: rgba(0, 0, 0, 0.6);
   }
 
@@ -4605,6 +4680,6 @@ element.style {
   }
 }
 
-.navbar:hover{
+.navbar:hover {
   background: rgba(0, 0, 0, 0.6);
 }
