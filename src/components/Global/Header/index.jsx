@@ -6,9 +6,11 @@ import { useRouter } from 'next/router';
 const Index = () => {
     const [ActiveBtn, Setactive] = useState(false)
     const [ActiveMenu, setActiveMenu] = useState(false)
+    const [InnerWidth, setInnerWidth] = useState()
 
     const router = useRouter();
     useEffect(() => {
+        setInnerWidth(window.innerWidth)
         Setactive(router.pathname)
     }, [router])
 
@@ -52,7 +54,6 @@ const Index = () => {
                                     <div className='Logo_mobile'>
                                         <img src="/images/header/Frame 14.svg" alt="" />
                                     </div>
-
                                     <a href="javascript:void(0)" className="closebtn" onClick={() => setActiveMenu(!ActiveMenu)}>
                                         ×
                                     </a>
@@ -65,7 +66,7 @@ const Index = () => {
                                     <Link className='link_menu_mobile' href="/contacts">Contact us</Link>
                                 </div>
                             </div>
-                            <span className='btn_open_tab' style={{ fontSize: 22, cursor: "pointer" }} onClick={() => setActiveMenu(!ActiveMenu)}>
+                            <span className='btn_open_tab' style={{ fontSize: 22, cursor: "pointer", display: `${InnerWidth < 920 ? 'block' : 'none'}`}} onClick={() => setActiveMenu(!ActiveMenu)}>
                                 ☰
                             </span>
                         </div>

@@ -86,8 +86,8 @@ body {
 
   .overlay .closebtn {
     font-size: 40px;
-    top: 15px;
-    right: 35px;
+    top: -15px;
+    right: 10px;
   }
 
   .btn_open_tab {
@@ -2036,7 +2036,7 @@ html {
   }
 
   .navbar:hover .logo_1 {
-    max-width: 6rem;
+    max-width: 4rem;
     display: inline-block
   }
 }

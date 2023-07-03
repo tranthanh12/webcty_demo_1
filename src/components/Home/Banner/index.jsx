@@ -6,7 +6,6 @@ const Index = () => {
     const [InnerWidts, setInnerWidth] = useState()
 
     useEffect(()=>{
-        console.log(window.innerWidth)
         setInnerWidth(window.innerWidth)
         let time = setInterval(()=>{
             setBannerIndex(BannerIndex + 1)
