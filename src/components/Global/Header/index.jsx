@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router';
 
-const index = () => {
+const Index = () => {
     const [ActiveBtn, Setactive] = useState(false)
     const btnToggle = ()=>{
         Setactive(!ActiveBtn)
@@ -56,4 +56,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Index
