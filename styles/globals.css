@@ -2018,6 +2018,12 @@ html {
   display: none
 }
 
+.Logo_mobile img {
+  display: inline-flex;
+  max-width: 40%;
+  height: auto;
+}
+
 
 @media screen and (min-width: 576px) {
   .logo {
@@ -2025,6 +2031,11 @@ html {
   }
 
   .navbar:hover .logo_1 {
+    max-width: 45%;
+    display: inline-block
+  }
+
+   .logo {
     max-width: 45%;
     display: inline-block
   }
@@ -2036,6 +2047,11 @@ html {
   }
 
   .navbar:hover .logo_1 {
+    max-width: 45%;
+    display: inline-block
+  }
+
+  .logo {
     max-width: 45%;
     display: inline-block
   }
@@ -3122,6 +3138,11 @@ html {
   }
 
   .navbar:hover .logo_1 {
+    max-width: 45%;
+    display: inline-block
+  }
+
+   .logo {
     max-width: 45%;
     display: inline-block
   }
