@@ -12,6 +12,10 @@ body {
   background: rgba(241, 248, 255, 1);
 }
 
+.btn_open_tab {
+  display: none;
+}
+
 .overlay {
   height: 0%;
   width: 100%;
@@ -75,7 +79,7 @@ body {
   height: 60px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 920px) {
   .overlay a {
     font-size: 20px
   }
@@ -84,6 +88,10 @@ body {
     font-size: 40px;
     top: 15px;
     right: 35px;
+  }
+
+  .btn_open_tab {
+    display: block;
   }
 }
 

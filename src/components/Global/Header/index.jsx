@@ -65,7 +65,7 @@ const Index = () => {
                                     <Link className='link_menu_mobile' href="/contacts">Contact us</Link>
                                 </div>
                             </div>
-                            <span style={{ fontSize: 22, cursor: "pointer" }} onClick={() => setActiveMenu(!ActiveMenu)}>
+                            <span className='btn_open_tab' style={{ fontSize: 22, cursor: "pointer" }} onClick={() => setActiveMenu(!ActiveMenu)}>
                                 ☰
                             </span>
                         </div>
