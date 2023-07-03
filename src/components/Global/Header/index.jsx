@@ -59,11 +59,11 @@ const Index = () => {
                                     </a>
                                 </div>
                                 <div className="overlay-content">
-                                    <Link onClick={() => setActiveMenu(!ActiveMenu)} className='link_menu_mobile' href="/services">Services</Link>
-                                    <Link onClick={() => setActiveMenu(!ActiveMenu)} className='link_menu_mobile' href="/Industrie">Industries</Link>
-                                    <Link onClick={() => setActiveMenu(!ActiveMenu)} className='link_menu_mobile' href="/aboutus">About Us</Link>
-                                    <Link onClick={() => setActiveMenu(!ActiveMenu)} className='link_menu_mobile' href="/recruitment">Recruitment</Link>
-                                    <Link onClick={() => setActiveMenu(!ActiveMenu)} className='link_menu_mobile' href="/contacts">Contact us</Link>
+                                    <Link onClick={() => setActiveMenu(!ActiveMenu)} className={`link_menu_mobile ${ActiveBtn == '/services' ? 'active_menu_mobile' : ''}`} href="/services">Services</Link>
+                                    <Link onClick={() => setActiveMenu(!ActiveMenu)} className={`link_menu_mobile ${ActiveBtn == '/Industrie' ? 'active_menu_mobile' : ''}`} href="/Industrie">Industries</Link>
+                                    <Link onClick={() => setActiveMenu(!ActiveMenu)} className={`link_menu_mobile ${ActiveBtn == '/aboutus' ? 'active_menu_mobile' : ''}`} href="/aboutus">About Us</Link>
+                                    <Link onClick={() => setActiveMenu(!ActiveMenu)} className={`link_menu_mobile ${ActiveBtn == '/recruitment' ? 'active_menu_mobile' : ''}`} href="/recruitment">Recruitment</Link>
+                                    <Link onClick={() => setActiveMenu(!ActiveMenu)} className={`link_menu_mobile ${ActiveBtn == '/contacts' ? 'active_menu_mobile' : ''}`} href="/contacts">Contact us</Link>
                                 </div>
                             </div>
                             <span className='btn_open_tab' style={{ fontSize: 22, cursor: "pointer", display: `${InnerWidth < 920 ? 'block' : 'none'}`}} onClick={() => setActiveMenu(!ActiveMenu)}>

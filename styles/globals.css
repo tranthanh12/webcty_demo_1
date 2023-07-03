@@ -2024,6 +2024,10 @@ html {
   height: auto;
 }
 
+.active_menu_mobile {
+  color: black !important;
+}
+
 
 @media screen and (min-width: 576px) {
   .logo {
