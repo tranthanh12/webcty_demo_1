@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 
-const index = () => {
+const Index = () => {
     const [BannerIndex, setBannerIndex] = useState(1)
     const [InnerWidts, setInnerWidth] = useState()
 
@@ -94,4 +94,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Index
