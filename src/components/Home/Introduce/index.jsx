@@ -77,7 +77,7 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                    Quality, well-managed and try to best to scope customer's needs are our Definition of Done.
+                                    Quality, well-managed and try to best to scope customers needs are our Definition of Done.
                                 </li>
                             </ul>
                         </div>
