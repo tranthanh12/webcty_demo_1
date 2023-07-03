@@ -68,6 +68,10 @@
 }
 
 @media screen and (min-width: 360px) and (max-width: 549px) {
+    .background_banner {
+        width: 100%;
+        height: 225px;
+    }
 
     .box_support {
         width: 95%;

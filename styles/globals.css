@@ -2025,7 +2025,7 @@ html {
   }
 
   .navbar:hover .logo_1 {
-    max-width: 6rem;
+    max-width: 45%;
     display: inline-block
   }
 }
@@ -2036,7 +2036,7 @@ html {
   }
 
   .navbar:hover .logo_1 {
-    max-width: 4rem;
+    max-width: 45%;
     display: inline-block
   }
 }
@@ -3119,6 +3119,11 @@ html {
     font-size: 1.5rem;
     line-height: 2rem;
     margin-bottom: 1.6rem
+  }
+
+  .navbar:hover .logo_1 {
+    max-width: 45%;
+    display: inline-block
   }
 }
 
