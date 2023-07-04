@@ -11,8 +11,8 @@ const index = () => {
 
             <div className={style.body_product}>
                 <div className={style.content_product}>
-                    <p>NTQ’s R&D Department was founded in 2015 with a great passion for pursuing new technology & creating better solutions. Our talented engineers always strive for new & brighter ways to do old things.</p>
-                    <p>Just like other incubators, NTQ desires to nurture new ideas and is constantly seeking a way to turn them into reality. That’s why, we are still looking for partners for JV, in order to develop and launch our present & future solutions.</p>
+                    <p>NTQ Department was founded in 2015 with a great passion for pursuing new technology creating better solutions. Our talented engineers always strive for new brighter ways to do old things.</p>
+                    <p>Just like other incubators, NTQ desires to nurture new ideas and is constantly seeking a way to turn them into reality. Thats why, we are still looking for partners for JV, in order to develop and launch our present future solutions.</p>
                 </div>
 
                 <div className={style.contact_product}>
