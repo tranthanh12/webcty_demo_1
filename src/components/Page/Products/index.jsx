@@ -33,7 +33,7 @@ const index = () => {
 
                         <div className={style.item_subject}>
                             <p>
-                                iLUTon is a collaborative product of EZDefence and NTQ to prevent data leakage. Integrated with computers, our smart devices can identify users' RFID cards to lock or unlock their Windows accounts automatically.
+                                iLUTon is a collaborative product of EZDefence and NTQ to prevent data leakage. Integrated with computers, our smart devices can identify users RFID cards to lock or unlock their Windows accounts automatically.
 
                                 iLUTon shall minimize the risk of information leakage and record actual working time accurately.
                             </p>
@@ -74,7 +74,7 @@ const index = () => {
 
                         <div className={style.item_subject}>
                             <p>
-                                iLUTon is a collaborative product of EZDefence and NTQ to prevent data leakage. Integrated with computers, our smart devices can identify users' RFID cards to lock or unlock their Windows accounts automatically.
+                                iLUTon is a collaborative product of EZDefence and NTQ to prevent data leakage. Integrated with computers, our smart devices can identify users RFID cards to lock or unlock their Windows accounts automatically.
 
                                 iLUTon shall minimize the risk of information leakage and record actual working time accurately.
                             </p>
@@ -116,7 +116,7 @@ const index = () => {
 
                         <div className={style.item_subject}>
                             <p>
-                                iLUTon is a collaborative product of EZDefence and NTQ to prevent data leakage. Integrated with computers, our smart devices can identify users' RFID cards to lock or unlock their Windows accounts automatically.
+                                iLUTon is a collaborative product of EZDefence and NTQ to prevent data leakage. Integrated with computers, our smart devices can identify users RFID cards to lock or unlock their Windows accounts automatically.
 
                                 iLUTon shall minimize the risk of information leakage and record actual working time accurately.
                             </p>
