@@ -172,6 +172,8 @@
 
     .box_infor {
         width: 100%;
+        
+    padding: 0px 10px;
     }
 
     .input_textArea input {

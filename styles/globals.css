@@ -2128,7 +2128,7 @@ html {
 
 .menu__item--language--mask:hover {
   color: #fff;
-  background-color: #1668b2
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .menu__item--language .current-language {
@@ -2170,7 +2170,7 @@ html {
   flex-direction: column;
   top: 7rem;
   left: .01rem;
-  background: #1668b2;
+  background: rgba(0, 0, 0, 0.3);
   max-height: 0;
   overflow: hidden;
   transition: max-height .65s cubic-bezier(.4, 0, .2, 1);

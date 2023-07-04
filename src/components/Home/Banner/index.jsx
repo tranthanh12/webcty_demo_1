@@ -9,7 +9,7 @@ const Index = () => {
         setInnerWidth(window.innerWidth)
         let time = setInterval(()=>{
             setBannerIndex(BannerIndex + 1)
-            if (BannerIndex >= 5) {
+            if (BannerIndex >= 4) {
                 setBannerIndex(1)
             }
         },5000)
@@ -61,24 +61,7 @@ const Index = () => {
                                 <div className="action-container" bis_skin_checked={1}><a className="button button--primary" href="/enterprise-software-development/" bis_skin_checked={1}> Read more </a></div>
                             </div>
                         </div>
-                        <div className={`swiper-slide slides__item swiper-slide-duplicate ${BannerIndex == 5 ? 'swiper-slide-active' : ''}`} style={{ backgroundImage: 'url("./images/banner/Group 8.png")', width: `${InnerWidts}px`, transitionDuration: '0ms', opacity: `${BannerIndex == 5 ? 1 : 0}`, transform: `translate3d(-${InnerWidts * 4}px, 0px, 0px)` }} data-swiper-slide-index={3} role="group" aria-label="5 / 7" bis_skin_checked={1}>
-                            <div className="container" bis_skin_checked={1}>
-                                <div className="title" bis_skin_checked={1}>Website Application Development </div>
-                                <div className="subtitle" bis_skin_checked={1}>Why wait and watch the way? Let our experts help
-                                    build the best in class, end-to-end web solutions that cater your business needs. </div>
-                                <div className="action-container" bis_skin_checked={1}><a className="button button--primary" href="/website-application/" bis_skin_checked={1}> Read more </a></div>
-                            </div>
-                        </div>
-                        <div className="swiper-slide slides__item swiper-slide-duplicate" style={{ backgroundImage: 'url("https://ntq.com.vn/media/Z4ojS7kPTrCYmRwTAuiI")', width: `${InnerWidts}px`, transitionDuration: '0ms', opacity: 0, transform: `translate3d(-${InnerWidts * 5}px, 0px, 0px)` }} data-swiper-slide-index={0} role="group" aria-label="7 / 7" bis_skin_checked={1}>
-                            <div className="container" bis_skin_checked={1}>
-                                <div className="title" bis_skin_checked={1}>sf-technology  awarded TOP 10 VIETNAM ICT 2022</div>
-                                <div className="subtitle" bis_skin_checked={1}>This prestigious award honors top IT enterprises
-                                    based on their high growth rate, high-quality solutions, and technological
-                                    breakthroughs. </div>
-                                <div className="action-container" bis_skin_checked={1}><a className="button button--primary" href="https://ntq.com.vn/newsroom/ntq-top-10-ict-2022/" bis_skin_checked={1}> Read
-                                    more </a></div>
-                            </div>
-                        </div>
+                       
                     </div><span className="swiper-notification" aria-live="assertive" aria-atomic="true" />
                 </div>
                 <div className="swiper-pagination page-banner-slider-pagination swiper-pagination-clickable swiper-pagination-bullets" bis_skin_checked={1}>
@@ -86,7 +69,6 @@ const Index = () => {
                     <span onClick={()=>{setBannerIndex(2)}} className={`swiper-pagination-bullet ${BannerIndex == 2 ? "swiper-pagination-bullet-active" : '' }`} tabIndex={0} role="button" aria-label="Go to slide 2" />
                     <span onClick={()=>{setBannerIndex(3)}} className={`swiper-pagination-bullet ${BannerIndex == 3 ? "swiper-pagination-bullet-active" : '' }`} tabIndex={0} role="button" aria-label="Go to slide 3" />
                     <span onClick={()=>{setBannerIndex(4)}} className={`swiper-pagination-bullet ${BannerIndex == 4 ? "swiper-pagination-bullet-active" : '' }`} role="button" aria-label="Go to slide 4" />
-                    <span onClick={()=>{setBannerIndex(5)}} className={`swiper-pagination-bullet ${BannerIndex == 5 ? "swiper-pagination-bullet-active" : '' }`} role="button" aria-label="Go to slide 5" />
                 </div>
             </div>
         </>

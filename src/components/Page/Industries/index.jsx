@@ -14,7 +14,6 @@ const index = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className={style.box}>
                     <div className={style.box_support}>
                         <div className={style.box_item}>

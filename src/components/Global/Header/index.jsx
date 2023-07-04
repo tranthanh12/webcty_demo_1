@@ -42,6 +42,9 @@ const Index = () => {
                                     <li className="menu__item menu__item--main">
                                         <Link href='/contacts'><span className={`menu__item__link menu__item__expandable-link ${ActiveBtn == '/contacts' ? 'active_link' : ''}`}>Contact us</span></Link>
                                     </li>
+                                    <li className="menu__item menu__item--main">
+                                        <Link href='/product'><span className={`menu__item__link menu__item__expandable-link ${ActiveBtn == '/product' ? 'active_link' : ''}`}>product</span></Link>
+                                    </li>
                                     <li className="menu__item menu__item--language"><span className="current-language"><span className="current-language__text">EN</span><i className="material-icons current-language__icon current-language__icon--expand">expand_more</i>
                                         <i className="material-icons current-language__icon current-language__icon--collapse">expand_less</i></span>
                                         <div className="language-dropdown" bis_skin_checked={1}> <a href="" className="language-dropdown__option" bis_skin_checked={1}> VN </a> </div>
