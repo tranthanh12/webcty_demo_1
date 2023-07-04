@@ -43,7 +43,7 @@ const Index = () => {
                                         <Link href='/contacts'><span className={`menu__item__link menu__item__expandable-link ${ActiveBtn == '/contacts' ? 'active_link' : ''}`}>Contact us</span></Link>
                                     </li>
                                     <li className="menu__item menu__item--main">
-                                        <Link href='/product'><span className={`menu__item__link menu__item__expandable-link ${ActiveBtn == '/product' ? 'active_link' : ''}`}>product</span></Link>
+                                        <Link href='/product'><span className={`menu__item__link menu__item__expandable-link ${ActiveBtn == '/product' ? 'active_link' : ''}`}>Products</span></Link>
                                     </li>
                                     <li className="menu__item menu__item--language"><span className="current-language"><span className="current-language__text">EN</span><i className="material-icons current-language__icon current-language__icon--expand">expand_more</i>
                                         <i className="material-icons current-language__icon current-language__icon--collapse">expand_less</i></span>
@@ -67,6 +67,7 @@ const Index = () => {
                                     <Link onClick={() => setActiveMenu(!ActiveMenu)} className={`link_menu_mobile ${ActiveBtn == '/aboutus' ? 'active_menu_mobile' : ''}`} href="/aboutus">About Us</Link>
                                     <Link onClick={() => setActiveMenu(!ActiveMenu)} className={`link_menu_mobile ${ActiveBtn == '/recruitment' ? 'active_menu_mobile' : ''}`} href="/recruitment">Recruitment</Link>
                                     <Link onClick={() => setActiveMenu(!ActiveMenu)} className={`link_menu_mobile ${ActiveBtn == '/contacts' ? 'active_menu_mobile' : ''}`} href="/contacts">Contact us</Link>
+                                    <Link onClick={() => setActiveMenu(!ActiveMenu)} className={`link_menu_mobile ${ActiveBtn == '/product' ? 'active_menu_mobile' : ''}`} href="/product">Products</Link>
                                 </div>
                             </div>
                             <span className='btn_open_tab' style={{ fontSize: 22, cursor: "pointer", display: `${InnerWidth < 920 ? 'block' : 'none'}`}} onClick={() => setActiveMenu(!ActiveMenu)}>
