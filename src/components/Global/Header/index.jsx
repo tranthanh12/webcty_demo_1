@@ -16,7 +16,6 @@ const Index = () => {
 
 
     return (
-        <>
             <nav className="navbar">
                 <div className="navbar__container" bis_skin_checked={1}>
                     <div className="main-content" bis_skin_checked={1}>
@@ -77,7 +76,6 @@ const Index = () => {
                     </div>
                 </div>
             </nav>
-        </>
     )
 }
 
