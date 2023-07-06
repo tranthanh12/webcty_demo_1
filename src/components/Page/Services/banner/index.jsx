@@ -14,12 +14,13 @@ const index = () => {
                             <p>Entrusted by hundreds of clients worldwide, we believe in empowering your business with top-certified IT talents and innovative world-class service delivery.
                             </p>
                         </div>
-                        
-                        <Link className={style.Link}  href="/contacts"><div className={style.service_container_text_button}>
-                        <p>Contact Us</p>
-                        </div>
+
+                        <Link className={style.Link} href="/contacts">
+                            <div className={style.service_container_text_button}>
+                                <p>Contact Us</p>
+                            </div>
                         </Link>
-                        
+
                     </div>
 
                 </div>

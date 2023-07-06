@@ -46,7 +46,7 @@ const index = () => {
                                 <div className={style.item}>
                                     <div className={style.item_content}>
                                         <p>
-                                        Do you buy a commercial CMS, or do you use an open-source CMS? Or should you customize and build your own CMS based on an open-source CMS? The team at SF will help in the open-source customization of different products to suit your needs by creating/designing templates, adding custom modules, or changing the product's core functionality.                                        </p>
+                                        Do you buy a commercial CMS, or do you use an open-source CMS? Or should you customize and build your own CMS based on an open-source CMS? The team at SF will help in the open-source customization of different products to suit your needs by creating/designing templates, adding custom modules, or changing the products core functionality.                                        </p>
                                     </div>
 
                                     <div className={style.link_service}>
@@ -130,7 +130,7 @@ const index = () => {
                                 <div className={style.item}>
                                     <div className={style.item_content}>
                                         <p>
-                                        If you aim to rely on IT consulting to keep pace with todays fast-moving IT landscape. If you feel you don't have the right internal resources, enlisting IT consulting services may be the missing piece to this picture — whether for a one-time project or ongoing strategic advice and guidance. At SF, our mission is solely focused on helping our clients leverage their technology investments to improve business performance. </p>
+                                        If you aim to rely on IT consulting to keep pace with todays fast-moving IT landscape. If you feel you dont have the right internal resources, enlisting IT consulting services may be the missing piece to this picture — whether for a one-time project or ongoing strategic advice and guidance. At SF, our mission is solely focused on helping our clients leverage their technology investments to improve business performance. </p>
                                     </div>
 
                                     <div className={style.link_service}>
