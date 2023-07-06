@@ -17,7 +17,7 @@ const index = () => {
                         </div>
                     </div>
 
-                    <div className={style.content_recrutment}>
+                    <div className={''}>
                         <div className={style.describe}>
                             <p>Mô tả công việc</p>
 
