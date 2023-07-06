@@ -20,7 +20,7 @@ const index = () => {
                             <div className={style.item}>
                                 <div className={style.title_item}>Banking and finance</div>
                                 <div className={style.item_icon}>
-                                    <img src="./images/industrie/Group.png" alt="" />
+                                    <img src="./images/industrie/" alt="" />
                                 </div>
                             </div>
 

@@ -10,10 +10,8 @@ const index = () => {
                     <div className={style.content_company_line}></div>
                 </div>
                 <div className={style.content_company_text}>
-                    <p>Part of SF-Technologies , we are experts in technology</p>
-                    <p>SF-Technologies exists in a group that boasts a global</p>
-                    <p>technology talent solutions business.</p>
-                    <p>We deliver smart solutions that solve business challenges and create value.</p>
+                    <p>SF-Technologists is a leading technology company specializing in providing software, web and mobile technology service solutions. Planning, technology strategy, custom software development in line with business vision.</p>
+                    
                 </div>
                 <div className={style.content_company_img}>
                     <img src="./images/banner/Frame 42962 (1).png" alt="" />
@@ -26,10 +24,10 @@ const index = () => {
 
                 </div>
                 <div className={style.content_company_imgbottom}>
-                    <img src="./images/banner/Rectangle 1 (1).png" alt="" />
-                    <img src="./images/banner/Rectangle 2 (1).png" alt="" />
-                    <img src="./images/banner/Rectangle 3 (1).png" alt="" />
-                    <img src="./images/banner/Rectangle 4 (1).png" alt="" />
+                    <img src="./images/banner/Rectangle 1 (2).png" alt="" />
+                    <img src="./images/banner/Rectangle 2 (2).png" alt="" />
+                    <img src="./images/banner/Rectangle 3 (2).png" alt="" />
+                    <img src="./images/banner/Rectangle 4 (2).png" alt="" />
                 </div>
             </div>
         </div>

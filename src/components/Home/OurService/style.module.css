@@ -79,6 +79,10 @@
     line-height: 17px;
     letter-spacing: 0em;
     color: #484848;
+    display: -webkit-box;
+    -webkit-line-clamp: 11;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .link_service p {
@@ -112,6 +116,10 @@
     letter-spacing: 0em;
     text-align: left;
     color: #667085;
+    white-space: nowrap;
+    width: auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .service_item .item_c {
@@ -242,13 +250,14 @@
 
     .item_content {
         width: 100%;
-        padding-top: 15%;
+        padding-top: 7%;
     }
 }
 
 @media screen and (min-width: 360px) and (max-width: 765px) {
-    .link_service {
+    .link_service p {
         /* flex-direction: column; */
+        width: auto;
     }
 
     .service_item {
@@ -266,7 +275,7 @@
 
     .item_content {
         width: 100%;
-        padding-top: 15%;
+        padding-top: 5%;
     }
 
     .service_banner {

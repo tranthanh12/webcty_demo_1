@@ -38,8 +38,8 @@ const index = () => {
                                 </div>
 
                                 <div className={style.address_detail}>
-                                    <span>088 685 54 44</span>
-                                    <span>admin@sf-technologiesgroup.com</span>
+                                    <p>088 685 54 44</p>
+                                    <p>admin@sf-technologiesgroup.com</p>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ const index = () => {
 
                             <div className={style.content_message}>
                                 <span>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    
                                 </span>
                             </div>
 

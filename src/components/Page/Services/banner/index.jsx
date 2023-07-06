@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './style.module.css'
+import Link from 'next/link'
 const index = () => {
     return (
         <div className='body'>
@@ -13,9 +14,12 @@ const index = () => {
                             <p>Entrusted by hundreds of clients worldwide, we believe in empowering your business with top-certified IT talents and innovative world-class service delivery.
                             </p>
                         </div>
-                        <div className={style.service_container_text_button}>
-                            <p>Contact Us</p>
+                        
+                        <Link className={style.Link}  href="/contacts"><div className={style.service_container_text_button}>
+                        <p>Contact Us</p>
                         </div>
+                        </Link>
+                        
                     </div>
 
                 </div>

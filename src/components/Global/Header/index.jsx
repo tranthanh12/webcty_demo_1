@@ -23,7 +23,7 @@ const Index = () => {
                         <div className="container container--full-width container--flex container--flex--space-between" bis_skin_checked={1}>
                             <div className="logo-container" bis_skin_checked={1}>
                                 <Link className="logo" href="/"><img src="/images/header/Frame 14.svg" alt="" /></Link>
-                                <Link className="logo_1" href="/"><img src="/images/banner/CF_1-01 1.png" alt="NTQ SOLUTION" /></Link>
+                                <Link className="logo_1" href="/"><img src="/images/banner/CF_1-01 1.png" alt="sf technology" /></Link>
                             </div>
                             <div className="menu-container" bis_skin_checked={1}>
                                 <ul className="menu">

@@ -59,9 +59,10 @@
     background: #ffff;
     border-radius: 5px;
     text-align: center;
-    padding: 16px 0px;
+    padding: 13px 0px;
     color: #1668b2;
     font-weight: 500;
+    font-size: 16px;
 }
 
 .item_produc {
@@ -73,7 +74,7 @@
 
 .item_bg, .item_bg_mobile, .item_bg_pc {
     width: 52%;
-    background-image: url('/images/product/product2.jpg');
+    background-image: url('/images/product/Capture.PNG');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
