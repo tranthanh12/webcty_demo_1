@@ -12,7 +12,7 @@ const index = () => {
 
             <div className={style.body_product}>
                 <div className={style.content_product}>
-                    <p>Established in September 2022, SF-Technologies Technology Joint Stock Company was born with the goal of becoming a leading technology company, providing diverse services to meet the needs of customers. With Gen Z's breakthrough thinking and vision, we are always looking for innovative ideas to build a solid foundation for our customers.</p>
+                    <p>Established in September 2022, SF-Technologies Technology Joint Stock Company was born with the goal of becoming a leading technology company, providing diverse services to meet the needs of customers. With Gen Z breakthrough thinking and vision, we are always looking for innovative ideas to build a solid foundation for our customers.</p>
 
                 </div>
 
@@ -83,7 +83,7 @@ Home Rent provides detailed information about apartments and hostels, including 
                         </div>
 
                         <div className={style.item_subject}>
-                            <p>Solution AI is a system that applies Artificial Intelligence (AI) technology in consulting, supporting and answering people's questions. Built on OpenAI's GPT-3.5 platform, Solution AI has the ability to understand and respond to users in a natural and flexible way. Solution AI can help users in many different areas, including:
+                            <p>Solution AI is a system that applies Artificial Intelligence (AI) technology in consulting, supporting and answering peoples questions. Built on OpenAIs GPT-3.5 platform, Solution AI has the ability to understand and respond to users in a natural and flexible way. Solution AI can help users in many different areas, including:
                                 Product and service consulting
                                 Technical support
                                 Inquiries Answering
