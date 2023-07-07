@@ -45,7 +45,7 @@ const index = () => {
 
                             <div className={style.item_content}>
 
-                                <p>We are looking for a Business Analyst who is passionate about understanding the client’s business need, conducting research and analyzing to come up with solutions to business problems. Your role is an important part of any project team.</p>
+                                <p>We are looking for a Business Analyst who is passionate about understanding the clients business need, conducting research and analyzing to come up with solutions to business problems. Your role is an important part of any project team.</p>
 
 
                             </div>
