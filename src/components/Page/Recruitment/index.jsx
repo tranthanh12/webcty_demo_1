@@ -26,7 +26,7 @@ const index = () => {
 
                             <div className={style.item_content}>
 
-                                <p>• Design images for online marketing (website, fanpage, youtube, video ...), publications, products for communication activities of the business (banner, standee, banner, .... )</p>
+                                <p>• Can endure pressure when working at high intensity, on deadline.</p>
                                 <p>• Can endure pressure when working at high intensity, on deadline.</p>
                                 <p>• Ability to work independently and in groups.</p>
                                 <p>• Other tasks as assigned by superiors</p>

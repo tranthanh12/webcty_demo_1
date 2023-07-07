@@ -17,8 +17,7 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                    Be one of outstanding from Vietnam, SF-Technologies is a Development & Design expert company providing superior Software,
-                                    Web, Mobile and Creative Designing solutions and services globally.
+                                Technological innovation: SF-Technologies always devotes time and resources to the research and development of the latest technology. We are constantly exploring and applying disruptive technological advancements, such as artificial intelligence, machine learning, blockchain, and IoT. This helps your business pioneer the use of technology and seize new opportunities.
                                 </li>
                             </ul>
                         </div>
@@ -27,7 +26,8 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                Contributed by the industry’s highly professional and trained individuals, SF-Technologies has made it’s mark as a well-established IT consultor
+                                Smart customer interactions: SF-Technologies places an emphasis on intelligent and interactive customer experiences. We provide advanced CRM solutions, intelligent chatbots and multi-channel interaction systems to help businesses build close relationships with customers. We not only meet current customer needs, but also anticipate and meet potential needs.
+
                                 </li>
                             </ul>
                         </div>
@@ -36,7 +36,8 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                We always strive to build high performance teams necessary for creating and maintaining world class business solutions: Information Technology planning, Custom Software Development, Web Centric Software Solutions, ERP development and implementations, Creative Designing and Marketing with emphasis on Industry-Specific Business Analysis.
+                                Intelligent Data Analytics: SF-Technologies uses artificial intelligence and data analytics to help businesses capture critical information and make strategic decisions. We provide intelligent data analysis tools and systems, helping customers identify trends, predict business results, and optimize workflow.
+
                                 </li>
                             </ul>
                         </div>
@@ -45,7 +46,8 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                Our focused, sound and innovative approach is derived from the cumulative experience of our team members and as a result of their combined practical business experience with strong technology delivery capabilities.
+                                Advanced mobile technology: SF-Technologies develops mobile applications and user-friendly interfaces on mobile platforms. We help businesses connect and interact with customers conveniently and flexibly through advanced mobile applications. This enhances the customer experience and creates a seamless connection between the business and the customer.
+
                                 </li>
                             </ul>
                         </div>
@@ -54,7 +56,8 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                We are able to comprehend the Client’s business requirements, propose IT and Creative strategies in line with the vision of the business.
+                                Safety and security: SF-Technologies always puts the safety and security of data first. We apply advanced security measures to ensure that the information of our customers and businesses is protected in the best way. We not only meet the highest security standards, but also help our customers comply with data privacy regulations.
+
                                 </li>
                             </ul>
                         </div>
@@ -63,7 +66,7 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                Base on your bussiness core, we will execute the business plan by building or implementing high quality scalable solutions through the use of latest cutting edge Technologies.
+                                International expansion: SF-Technologies is not only focused on serving domestic customers, but also aims to expand internationally. We aim to be a trusted technology partner globally, working with businesses and organizations in every country, delivering innovative technology solutions and creating sustainable value.
                                 </li>
                             </ul>
                         </div>
@@ -72,7 +75,8 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                Quality, well-managed and try to best to scope customers needs are our Definition of Done.
+                                Continue to innovate and improve quality: SF-Technologies is committed to maintaining innovation and continuously improving the quality of technology solutions. We will pursue the latest research and development, and listen and understand the needs of our customers well to satisfy all requirements.
+ 
                                 </li>
                             </ul>
                         </div>
