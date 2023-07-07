@@ -51,7 +51,7 @@ const index = () => {
 
                             <div className={style.detail_content}>
                                 <ul>
-                                    <li>Bachelor's degree in Computer Science, Computer Engineering or related field.</li>
+                                    <li>Bachelors degree in Computer Science, Computer Engineering or related field.</li>
                                     <li>Minimum of 5 years of experience in frontend web development.</li>
                                     <li>Experience leading a team of developers in delivering quality software products.</li>
                                     <li>Strong knowledge of frontend technologies - HTML, CSS, JavaScript, ReactJS, AngularJS, etc.</li>
