@@ -27,8 +27,7 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                    Be one of outstanding from Vietnam, SF-Technologies is a Development & Design expert company providing superior Software,
-                                    Web, Mobile and Creative Designing solutions and services globally.
+                                Contributed by the industry’s highly professional and trained individuals, SF-Technologies has made it’s mark as a well-established IT consultor
                                 </li>
                             </ul>
                         </div>
@@ -37,8 +36,7 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                    Be one of outstanding from Vietnam, SF-Technologies is a Development & Design expert company providing superior Software,
-                                    Web, Mobile and Creative Designing solutions and services globally.
+                                We always strive to build high performance teams necessary for creating and maintaining world class business solutions: Information Technology planning, Custom Software Development, Web Centric Software Solutions, ERP development and implementations, Creative Designing and Marketing with emphasis on Industry-Specific Business Analysis.
                                 </li>
                             </ul>
                         </div>
@@ -47,8 +45,7 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                    Be one of outstanding from Vietnam, SF-Technologies is a Development & Design expert company providing superior Software,
-                                    Web, Mobile and Creative Designing solutions and services globally.
+                                Our focused, sound and innovative approach is derived from the cumulative experience of our team members and as a result of their combined practical business experience with strong technology delivery capabilities.
                                 </li>
                             </ul>
                         </div>
@@ -57,8 +54,7 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                    Be one of outstanding from Vietnam, SF-Technologies is a Development & Design expert company providing superior Software,
-                                    Web, Mobile and Creative Designing solutions and services globally.
+                                We are able to comprehend the Client’s business requirements, propose IT and Creative strategies in line with the vision of the business.
                                 </li>
                             </ul>
                         </div>
@@ -67,8 +63,7 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                    Be one of outstanding from Vietnam, SF-Technologies is a Development & Design expert company providing superior Software,
-                                    Web, Mobile and Creative Designing solutions and services globally.
+                                Base on your bussiness core, we will execute the business plan by building or implementing high quality scalable solutions through the use of latest cutting edge Technologies.
                                 </li>
                             </ul>
                         </div>
@@ -77,7 +72,7 @@ const index = () => {
                             <div className={style.line_1}></div>
                             <ul>
                                 <li>
-                                    Quality, well-managed and try to best to scope customers needs are our Definition of Done.
+                                Quality, well-managed and try to best to scope customer's needs are our Definition of Done.
                                 </li>
                             </ul>
                         </div>

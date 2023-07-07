@@ -11,7 +11,7 @@ const index = () => {
                 </div>
                 <div className={style.content_company_text}>
                     <p>SF-Technologists is a leading technology company specializing in providing software, web and mobile technology service solutions. Planning, technology strategy, custom software development in line with business vision.</p>
-                    
+
                 </div>
                 <div className={style.content_company_img}>
                     <img src="./images/banner/Frame 42962 (1).png" alt="" />
@@ -24,6 +24,7 @@ const index = () => {
 
                 </div>
                 <div className={style.content_company_imgbottom}>
+                    
                     <img src="./images/banner/Rectangle 1 (2).png" alt="" />
                     <img src="./images/banner/Rectangle 2 (2).png" alt="" />
                     <img src="./images/banner/Rectangle 3 (2).png" alt="" />
