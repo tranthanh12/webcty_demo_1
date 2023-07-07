@@ -150,7 +150,7 @@ const index = () => {
 
                             <div className={style.item_content}>
                                 <p>• Participate in application analysis, design, development and maintenance</p>
-                                <p>• Support e-commerce partners, banks to connect to the Company's system;</p>
+                                <p>• Support e-commerce partners, banks to connect to the Companys system;</p>
                                 <p>• Doing digital banking related services for big banks</p>
                             </div>
                         </div>
