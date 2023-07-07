@@ -18,18 +18,15 @@ const index = () => {
                         <div className={style.box_list_item}>
                             <Link href={'/detail'}>
                                 <div className={style.btn_designs}>
-                                    <p>GRAPHIC DESIGNER</p>
+                                    <p>Graphic Designer</p>
                                 </div>
                             </Link>
 
-                            <div className={style.item_title}>
-                                <p>A GRAPHIC DESIGNER</p>
-                            </div>
+
 
                             <div className={style.item_content}>
 
                                 <p>• Design images for online marketing (website, fanpage, youtube, video ...), publications, products for communication activities of the business (banner, standee, banner, .... )</p>
-                                <p>• Supervision of printing quality (proposing to choose printing and construction service providers; supervision of printing and construction to ensure the design publications meet the requirements for quality and aesthetics) publications serving the Companys business activities</p>
                                 <p>• Can endure pressure when working at high intensity, on deadline.</p>
                                 <p>• Ability to work independently and in groups.</p>
                                 <p>• Other tasks as assigned by superiors</p>
@@ -38,127 +35,138 @@ const index = () => {
                         </div>
 
                         <div className={style.box_list_item}>
-                            <div className={style.btn_designs}>
-                                <p>TESTER </p>
-                            </div>
-
-                            <div className={style.item_title}>
-                                <p>A TESTER </p>
-                            </div>
-
-                            <div className={style.item_content}>
-                                <p>• Manual Testing, MS Azure DevOps</p>
-                                <p>• Create test case</p>
-                                <p>• Execute test case</p>
-                                <p>• Report bugs</p>
-                                <p>• Test Lead opportunities open as well</p>
+                            <Link href={'/detail'}>
+                                <div className={style.btn_designs}>
+                                    <p>Business Analyst</p>
+                                </div>
+                            </Link>
 
 
-                            </div>
-                        </div>
-
-
-                        <div className={style.box_list_item}>
-                            <div className={style.btn_designs}>
-                                <p>BUSINESS ANALYST </p>
-                            </div>
-
-                            <div className={style.item_title}>
-                                <p>A BUSINESS ANALYST </p>
-                            </div>
 
                             <div className={style.item_content}>
+
                                 <p>We are looking for a Business Analyst who is passionate about understanding the client’s business need, conducting research and analyzing to come up with solutions to business problems. Your role is an important part of any project team.</p>
+
+
+                            </div>
+                        </div>
+
+
+                        <div className={style.box_list_item}>
+                            <Link href={'/detail'}>
+                                <div className={style.btn_designs}>
+                                    <p>Tester</p>
+                                </div>
+                            </Link>
+
+
+
+                            <div className={style.item_content}>
+                                <p>• Manual Testing, MS Azure DevOps;</p>
+                                <p>• Create test case;</p>
+                                <p>• Execute test case;</p>
+                                <p>• Report bugs;</p>
+                                <p>• Test Lead opportunities open as well.</p>
+                                
                             </div>
                         </div>
 
                         <div className={style.box_list_item}>
-                            <div className={style.btn_designs}>
-                                <p>Designer</p>
-                            </div>
+                            <Link href={'/detail'}>
+                                <div className={style.btn_designs}>
+                                    <p>Mobile Engineer (Flutter)</p>
+                                </div>
+                            </Link>
 
-                            <div className={style.item_title}>
-                                <p>A Designer</p>
-                            </div>
+                            
 
                             <div className={style.item_content}>
-                                <p>• Lead a team of developers in building and maintaining web applications using modern frontend technologies.
-                                    • Collaborate with cross-functional teams to develop and implement new features.
-                                    • Develop and maintain coding standards, best practices, and documentation.
-                                    • Manage project timelines and deliverables, ensuring on-time delivery of high-quality products.
-                                    • Conduct code reviews to maintain code quality and ensure adherence to coding standards.
-                                    • Implement effective development processes and tools to streamline development and improve performance.
-                                    • Mentor and coach developers to improve technical skills and ensure job satisfaction.
-                                </p>
+                                <p>• Collaborate with a cross-functional team to ship valuable product increments</p>
+                                <p>• Make a positive impact towards a healthy and maintainable platform every day</p>
+                                <p>• Write and style modular widgets with Flutter</p>
+                                <p>• Report bugs;</p>
+                                <p>• Test Lead opportunities open as well.</p>
+                                
                             </div>
                         </div>
 
                         <div className={style.box_list_item}>
-                            <div className={style.btn_designs}>
-                                <p>Designer</p>
-                            </div>
+                            <Link href={'/detail'}>
+                                <div className={style.btn_designs}>
+                                    <p>Senior Backend Engineer</p>
+                                </div>
+                            </Link>
 
-                            <div className={style.item_title}>
-                                <p>A Designer</p>
-                            </div>
+                            
 
                             <div className={style.item_content}>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec purus ex. </p>
+                                <p>• Writing clean & high-quality code</p>
+                                <p>• Maintain & improve running- functionality as well as design and develop new system, new feature if needed</p>
+                                <p>• Deliver end-to-end, including unit test, integration test and deployment to PROD</p>
+                                
                             </div>
                         </div>
 
                         <div className={style.box_list_item}>
-                            <div className={style.btn_designs}>
-                                <p>Designer</p>
-                            </div>
+                            <Link href={'/detail'}>
+                                <div className={style.btn_designs}>
+                                    <p>Technical Lead Frontend</p>
+                                </div>
+                            </Link>
 
-                            <div className={style.item_title}>
-                                <p>A Designer</p>
-                            </div>
+                            
 
                             <div className={style.item_content}>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec purus ex. </p>
+                                <p>• Lead a team of developers in building and maintaining web applications using modern frontend technologies.</p>
+                                <p>• Collaborate with cross-functional teams to develop and implement new features.</p>
+                                <p>• Develop and maintain coding standards, best practices, and documentation.</p> 
                             </div>
                         </div>
 
                         <div className={style.box_list_item}>
-                            <div className={style.btn_designs}>
-                                <p>Designer</p>
-                            </div>
+                            <Link href={'/detail'}>
+                                <div className={style.btn_designs}>
+                                    <p>Backend Middle Nodejs</p>
+                                </div>
+                            </Link>
 
-                            <div className={style.item_title}>
-                                <p>A Designer</p>
-                            </div>
+                            
 
                             <div className={style.item_content}>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec purus ex. </p>
+                                <p>• Develop system, software to manage all company operations</p>
+                                <p>• Build API system for Mobile App, Web App</p>
+                                <p>• Technologies used: Node.js, MySql, MongoDb, Kafka, ....</p>
                             </div>
                         </div>
 
                         <div className={style.box_list_item}>
-                            <div className={style.btn_designs}>
-                                <p>Designer</p>
-                            </div>
+                            <Link href={'/detail'}>
+                                <div className={style.btn_designs}>
+                                    <p>Java Programmer</p>
+                                </div>
+                            </Link>
 
-                            <div className={style.item_title}>
-                                <p>A Designer</p>
-                            </div>
+                            
 
                             <div className={style.item_content}>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec purus ex. </p>
+                                <p>• Participate in application analysis, design, development and maintenance</p>
+                                <p>• Support e-commerce partners, banks to connect to the Company's system;</p>
+                                <p>• Doing digital banking related services for big banks</p>
                             </div>
                         </div>
                         <div className={style.box_list_item}>
-                            <div className={style.btn_designs}>
-                                <p>Designer</p>
-                            </div>
+                            <Link href={'/detail'}>
+                                <div className={style.btn_designs}>
+                                    <p>HR Manager</p>
+                                </div>
+                            </Link>
 
-                            <div className={style.item_title}>
-                                <p>A Designer</p>
-                            </div>
+                            
 
                             <div className={style.item_content}>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec purus ex. </p>
+                                <p>• Making plans for recruitment, training and human resource development on a yearly, quarterly and monthly basis</p>
+                                <p>• Develop regulations on salary and bonus, measures to encourage - stimulate employees to work, implement regimes for employees</p>
+                                <p>• Doing digital banking related services for big banks</p>
                             </div>
                         </div>
 

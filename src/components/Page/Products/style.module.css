@@ -72,12 +72,21 @@
     margin: auto;
 }
 
-.item_bg, .item_bg_mobile, .item_bg_pc {
+.item_bg, .item_bg_mobile, .item_bg_pc, .item_bg_1 {
     width: 52%;
-    background-image: url('/images/product/Capture.PNG');
+    background-image: url('/images/product/Frame 43017.png');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+}
+
+.item_bg_pc {
+    background-image: url('/images/product/Frame 43016.png');
+}
+
+.item_bg_1 {
+    background-image: url('/images/product/Frame 43018.png');
+    
 }
 
 .item_content {
@@ -95,9 +104,17 @@
 }
 
 .item_title {
-    font-size: 3.6rem;
-    line-height: 4.8rem;
-    margin-bottom: 2.4rem;
+    width: 315px;
+height: 186px
+
+}
+.btn_contact:hover{
+    color: #ffffff;
+    background-color: #1668B2;
+    cursor: pointer;
+}
+.Link{
+    text-decoration: none;
 }
 
 .item_subject,
@@ -189,5 +206,14 @@
         width: 100%;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
+        background-image: url('/images/product/Frame 43016.png')
+    }
+    .item_bg_1 {
+        display: block;
+        height: 300px;
+        width: 100%;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-image: url('/images/product/Frame 43018.png')
     }
 }

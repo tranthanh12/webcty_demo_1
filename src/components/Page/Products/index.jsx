@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './style.module.css'
+import Link from 'next/link'
 const index = () => {
     return (
         <>
@@ -11,16 +12,16 @@ const index = () => {
 
             <div className={style.body_product}>
                 <div className={style.content_product}>
-                    <p>NTQ Department was founded in 2015 with a great passion for pursuing new technology creating better solutions. Our talented engineers always strive for new brighter ways to do old things.</p>
-                    <p>Just like other incubators, NTQ desires to nurture new ideas and is constantly seeking a way to turn them into reality. Thats why, we are still looking for partners for JV, in order to develop and launch our present future solutions.</p>
+                    <p>SF Department was founded in 2022 with a great passion for pursuing new technology creating better solutions. Our talented engineers always strive for new brighter ways to do old things.</p>
+                    <p>Just like other incubators, SF desires to nurture new ideas and is constantly seeking a way to turn them into reality. Thats why, we are still looking for partners for JV, in order to develop and launch our present future solutions.</p>
                 </div>
 
                 <div className={style.contact_product}>
                     <div className={style.bg_product_contact}>
                         <p>For any partnership proposal, feel free to contact us.</p>
-                        <div className={style.btn_contact}>
+                        <Link className={style.Link} href="/contacts"><div className={style.btn_contact}>
                             Contact us
-                        </div>
+                        </div></Link>
                     </div>
                 </div>
 
@@ -28,40 +29,20 @@ const index = () => {
                     <div className={style.item_bg}></div>
                     <div className={style.item_content}>
                         <div className={style.item_title}>
-                            <p>ILUTon - PC ScreenLocker</p>
+                            <img src="./images/product/home rent 1.png" alt="" />
                         </div>
 
                         <div className={style.item_subject}>
+                            <p> Home Rent Project</p>
                             <p>
-                                iLUTon is a collaborative product of EZDefence and NTQ to prevent data leakage. Integrated with computers, our smart devices can identify users RFID cards to lock or unlock their Windows accounts automatically.
 
-                                iLUTon shall minimize the risk of information leakage and record actual working time accurately.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                             </p>
                         </div>
 
-                        <div className={style.item_detail}>
-                            <div className={style.detail_title}>
-                                <p>Main Features:</p>
-                            </div>
 
-                            <div className={style.detail_list}>
-                                <ul>
-                                    <li>
-                                        <p>Alert users if there are unrecognized logins.</p>
-                                    </li>
-                                    <li>
-                                        <p>Alert users if there are unrecognized logins.</p>
-                                    </li>
-                                    <li>
-                                        <p>Alert users if there are unrecognized logins.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
 
-                        <div className={style.btn_detail}>
-                            <p>Contact us</p>
-                        </div>
+
                     </div>
                 </div>
 
@@ -69,82 +50,48 @@ const index = () => {
                     <div className={style.item_bg_mobile}></div>
                     <div className={style.item_content}>
                         <div className={style.item_title}>
-                            <p>ILUTon - PC ScreenLocker</p>
+                            <img src="/images/product/Group 25 (1).png" alt="" />
                         </div>
 
                         <div className={style.item_subject}>
                             <p>
-                                iLUTon is a collaborative product of EZDefence and NTQ to prevent data leakage. Integrated with computers, our smart devices can identify users RFID cards to lock or unlock their Windows accounts automatically.
+                                AirData specializes in providing flight booking services from leading airlines in Vietnam and the world, bringing the best travel experiences to customers.
 
-                                iLUTon shall minimize the risk of information leakage and record actual working time accurately.
+                                AirData is an online flight booking platform that makes the flight booking process easier, always providing detailed information about flights, fares, cancellation policies, schedule changes and requirements. Other special requirements to help customers book tickets quickly and conveniently
+
+                                AirData provides fare and flight comparison tools to help customers find the best fares and flights to suit their needs.
+                                AirData supports payment by many different methods, secure, safe and 24/7 support
                             </p>
                         </div>
 
-                        <div className={style.item_detail}>
-                            <div className={style.detail_title}>
-                                <p>Main Features:</p>
-                            </div>
 
-                            <div className={style.detail_list}>
-                                <ul>
-                                    <li>
-                                        <p>Alert users if there are unrecognized logins.</p>
-                                    </li>
-                                    <li>
-                                        <p>Alert users if there are unrecognized logins.</p>
-                                    </li>
-                                    <li>
-                                        <p>Alert users if there are unrecognized logins.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
 
-                        <div className={style.btn_detail}>
-                            <p>Contact us</p>
-                        </div>
+
                     </div>
                     <div className={style.item_bg_pc}></div>
                 </div>
 
                 <div className={style.item}>
-                    <div className={style.item_bg}></div>
+                    <div className={style.item_bg_1}></div>
                     <div className={style.item_content}>
                         <div className={style.item_title}>
-                            <p>ILUTon - PC ScreenLocker</p>
+                            <img src="/images/product/ai 3.png" alt="" />
                         </div>
 
                         <div className={style.item_subject}>
-                            <p>
-                                iLUTon is a collaborative product of EZDefence and NTQ to prevent data leakage. Integrated with computers, our smart devices can identify users RFID cards to lock or unlock their Windows accounts automatically.
+                            <p>Solution AI project</p>
 
-                                iLUTon shall minimize the risk of information leakage and record actual working time accurately.
+                            <p>
+                            
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                             </p>
                         </div>
 
-                        <div className={style.item_detail}>
-                            <div className={style.detail_title}>
-                                <p>Main Features:</p>
-                            </div>
 
-                            <div className={style.detail_list}>
-                                <ul>
-                                    <li>
-                                        <p>Alert users if there are unrecognized logins.</p>
-                                    </li>
-                                    <li>
-                                        <p>Alert users if there are unrecognized logins.</p>
-                                    </li>
-                                    <li>
-                                        <p>Alert users if there are unrecognized logins.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
 
-                        <div className={style.btn_detail}>
-                            <p>Contact us</p>
-                        </div>
+
+
+
                     </div>
                 </div>
             </div>

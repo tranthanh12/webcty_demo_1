@@ -18,44 +18,44 @@ const index = () => {
                     <div className={style.box_support}>
                         <div className={style.box_item}>
                             <div className={style.item}>
-                                <div className={style.title_item}>Banking and finance</div>
+                                
                                 <div className={style.item_icon}>
-                                    <img src="./images/industrie/" alt="" />
+                                    <img src="./images/industrie/Frame 42993 (1).png" alt="" />
                                 </div>
                             </div>
 
                             <div className={style.item} id={'item_active'}>
-                                <div className={style.title_item}>Banking and finance</div>
+                                
                                 <div className={style.item_icon}>
-                                    <img src="./images/industrie/Group (1).png" alt="" />
+                                    <img src="./images/industrie/Frame 42994.png" alt="" />
                                 </div>
                             </div>
 
                             <div className={style.item}>
-                                <div className={style.title_item}>Banking and finance</div>
+                                
                                 <div className={style.item_icon}>
-                                    <img src="./images/industrie/Group (3).png" alt="" />
+                                    <img src="./images/industrie/Frame 42995.png" alt="" />
                                 </div>
                             </div>
 
                             <div className={style.item} id={'item_active'}>
-                                <div className={style.title_item}>Banking and finance</div>
+                                
                                 <div className={style.item_icon}>
-                                    <img src="./images/industrie/Group (4).png" alt="" />
+                                    <img src="./images/industrie/Frame 42996.png" alt="" />
                                 </div>
                             </div>
 
                             <div className={style.item}>
-                                <div className={style.title_item}>Banking and finance</div>
+                               
                                 <div className={style.item_icon}>
-                                    <img src="./images/industrie/Group (3).png" alt="" />
+                                    <img src="./images/industrie/Frame 42997.png" alt="" />
                                 </div>
                             </div>
 
                             <div className={style.item} id={'item_active'}>
-                                <div className={style.title_item}>Banking and finance</div>
+                                
                                 <div className={style.item_icon}>
-                                    <img src="./images/industrie/Group (4).png" alt="" />
+                                    <img src="./images/industrie/Frame 42998.png" alt="" />
                                 </div>
                             </div>
                         </div>
