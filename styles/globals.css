@@ -17,7 +17,7 @@ body {
 }
 
 .overlay {
-  height: 0%;
+  height: 75%;
   width: 100%;
   position: fixed;
   z-index: 1;

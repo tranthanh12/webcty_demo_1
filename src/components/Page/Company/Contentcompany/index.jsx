@@ -25,21 +25,25 @@ const index = () => {
                 </div>
                 <div className={style.content_company_imgbottom}>
                     
-                    <img src="./images/banner/Rectangle 1 (2).png" alt="" />
-                    
-                    <img src="./images/banner/Rectangle 2 (2).png" alt="" />
-                   
-                    <img src="./images/banner/Rectangle 3 (2).png" alt="" />
-                    
-                    <img src="./images/banner/Rectangle 4 (2).png" alt="" />
-                    
+                    <div className={style.item_img}>
+                        <img src="./images/banner/Rectangle 1 (2).png" alt="" />
+                        <p className={style.title_img}> Charity </p>
+                    </div>
 
-                </div>
-                <div className={style.mota}>
-                    <p> tu thien </p>
-                    <p> tu thien </p>
-                    <p> tu thien</p>
-                    <p> team building</p>
+                    <div className={style.item_img}>
+                        <img src="./images/banner/Rectangle 2 (2).png" alt="" />
+                        <p className={style.title_img}> Charity </p>
+                    </div>
+
+                    <div className={style.item_img}>
+                        <img src="./images/banner/Rectangle 3 (2).png" alt="" />
+                        <p className={style.title_img}> Charity </p>
+                    </div>
+
+                    <div className={style.item_img}>
+                        <img src="./images/banner/Rectangle 4 (2).png" alt="" />
+                        <p className={style.title_img}> Charity </p>
+                    </div>
 
                 </div>
             </div>

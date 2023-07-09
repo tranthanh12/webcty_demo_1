@@ -44,6 +44,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .content_company_text2 {
@@ -63,8 +64,27 @@
     padding-top: 40px;
 
 }
-.content_company_imgbottom img{
+
+.item_img {
     width: 24%;
+    position: relative;
+}
+
+.title_img {
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(24, 172, 234, 0.8);
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content_company_imgbottom img{
+    width: 100%;
+    height: 100%;
 }
 
 @media screen and (min-width: 360px) and (max-width: 428px) {

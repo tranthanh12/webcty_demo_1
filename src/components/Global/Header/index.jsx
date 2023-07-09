@@ -51,7 +51,7 @@ const Index = () => {
                             </ul>
                         </div>
 
-                        <div id="myNav" style={{ height: `${ActiveMenu ? '60%' : '0px'}` }} className="overlay">
+                        <div id="myNav" style={{ height: `${ActiveMenu ? '75%' : '0px'}` }} className="overlay">
                             <div className='menu_mobile_top'>
                                 <div className='Logo_mobile'>
                                     <img src="/images/header/Frame 14.svg" alt="" />
