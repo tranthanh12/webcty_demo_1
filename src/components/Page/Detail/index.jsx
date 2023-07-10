@@ -12,7 +12,7 @@ const index = () => {
                         <br />
 
                         <div className={style.subject_recrutment}>
-                            <p>Update: 06/12/2022</p>
+                            <p>Update: 10/07/2023</p>
                             <p>You have 24 days left to apply</p>
                         </div>
                     </div>
