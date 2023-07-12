@@ -19,7 +19,7 @@
 }
 
 .our_service {
-    margin-top: -225px;
+    /* margin-top: -225px; */
 }
 
 .inline_1 {
@@ -39,31 +39,28 @@
     text-align: center;
     width: 275px;
     margin: auto;
-    margin-bottom: 45px;
-    color: #ffffff;
+    margin-top: 45px;
+    color:#25AAE1;
 }
 
 .service_item {
     width: 65%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin: auto;
 }
 
 .item {
-    width: 385px;
-    height: 318px;
+    width: 100%;
     padding: 19.73684310913086px;
     border-radius: 5px;
     gap: 19.73684310913086px;
     background-color: #ffffff;
     box-shadow: 0px 4px 4px 0px #00000040;
     margin-bottom: 20px;
+    display: flex;
 }
 
 .item_content {
-    width: 345.53px;
+    width: 80%;
     height: 224px;
     padding: 10px;
     border-radius: 5px;
@@ -101,11 +98,10 @@
 }
 
 .link_service {
-    width: 331.79px;
-    height: 27.63px;
     gap: 16px;
     margin-top: 20px;
     display: flex;
+    width: 20%;
 }
 
 .link_service p {
@@ -123,7 +119,32 @@
 }
 
 .service_item .item_c {
-    width: 30%;
+    width: 100%;
+}
+
+.list_dot {
+    display: flex;
+    width: 165px;
+    margin: auto;
+}
+
+.dot_item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(200, 226, 255, 1);
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.active {
+    width: 99px;
+    border-radius: 500px;
+    background: rgba(37, 170, 225, 1);
+}
+
+.link_service img {
+    height: 204px;
 }
 
 @media screen and (max-width: 1049px) {
@@ -206,7 +227,7 @@
     }
 
     .service_item .item_c {
-        width: 45%;
+        width: 100%;
     }
 
     .item {
@@ -225,14 +246,14 @@
 
 @media screen and (min-width: 1350px) { 
     .box_service {
-        height: 1800px;
+        height: auto;
     }
 
     .our_service {
         /* top: 65%;
         left: 0%; */
         z-index: 11;
-        margin-top: -256px;
+        /* margin-top: -256px; */
     }
 
     .service_item {
@@ -241,7 +262,7 @@
     }
 
     .service_item .item_c {
-        width: 30%;
+        width: 100%;
     }
 
     .item {
@@ -274,8 +295,12 @@
     }
 
     .item_content {
-        width: 100%;
+        width: 60%;
         padding-top: 5%;
+    }
+
+    .link_service {
+        width: 40%;
     }
 
     .service_banner {

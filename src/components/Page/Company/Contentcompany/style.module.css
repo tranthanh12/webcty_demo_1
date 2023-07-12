@@ -75,8 +75,8 @@
     border-bottom-left-radius: 9px;
     position: absolute;
     bottom: 0px;
-    background-color: rgba(24, 172, 234, 0.8);
-    padding: 10px 0px;
+    background: linear-gradient(180deg, rgba(24, 172, 234, 0) 0%, #18ACEA 100%);
+    padding: 30px 0px;
     width: 100%;
     text-align: center;
     color: #ffffff;

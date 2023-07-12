@@ -42,7 +42,7 @@ const index = () => {
 
                     <div className={style.item_img}>
                         <img src="./images/banner/Rectangle 4 (2).png" alt="" />
-                        <p className={style.title_img}> Charity </p>
+                        <p className={style.title_img}> Team Building </p>
                     </div>
 
                 </div>

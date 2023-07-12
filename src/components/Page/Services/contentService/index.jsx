@@ -5,7 +5,7 @@ const index = () => {
         <div className={style.contentServices}>
             <div className={style.contentServices_detail}>
                 <div className={style.img_content}>
-                    <img src="./images/banner/it-oursourcing-690x450-1 1 (1).png" alt="" />
+                    <img src="./images/banner/digital-transformation-690x450-1 1 (2).png" alt="" />
                 </div>
                 <div className={style.contentServices_detail_text}>
                     <div className={style.contentServices_detail_text_title}>
@@ -13,7 +13,7 @@ const index = () => {
                         <div className={style.line}></div>
                     </div>
                     <div className={style.img_content_mobile}>
-                    <img src="./images/banner/it-oursourcing-690x450-1 1 (1).png" alt="" />
+                    <img src="./images/banner/digital-transformation-690x450-1 1 (2).png" alt="" />
                 </div>
                     <div className={style.contentServices_detail_text_des}>
                         <p>
@@ -35,7 +35,7 @@ const index = () => {
                         <div className={style.line_right}></div>
                     </div>
                     <div className={style.img_content_mobile}>
-                    <img src="./images/banner/it-oursourcing-690x450-1 1 (1).png" alt="" />
+                    <img src="./images/banner/it-oursourcing-690x450-1 1 (2).png" alt="" />
                 </div>
                     <div className={style.contentServices_detail_text_des_right}>
                         <p>
@@ -44,13 +44,13 @@ const index = () => {
                     </div>
                 </div>
                 <div className={style.img_content}>
-                    <img src="./images/banner/it-oursourcing-690x450-1 1 (1).png" alt="" />
+                    <img src="./images/banner/it-oursourcing-690x450-1 1 (2).png" alt="" />
                 </div>
             </div>
 
             <div className={style.contentServices_detail}>
                 <div className={style.img_content}>
-                    <img src="./images/banner/it-oursourcing-690x450-1 1 (1).png" alt="" />
+                    <img src="./images/banner/digital-transformation-690x450-1 1 (3).png" alt="" />
                 </div>
                 <div className={style.contentServices_detail_text}>
                     <div className={style.contentServices_detail_text_title}>
@@ -58,7 +58,7 @@ const index = () => {
                         <div className={style.line}></div>
                     </div>
                     <div className={style.img_content_mobile}>
-                    <img src="./images/banner/it-oursourcing-690x450-1 1 (1).png" alt="" />
+                    <img src="./images/banner/digital-transformation-690x450-1 1 (3).png" alt="" />
                 </div>
                     <div className={style.contentServices_detail_text_des}>
                         <p>
