@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import style from './style.module.css'
 
-const index = () => {
+const Index = () => {
     const [id, setId] = useState(1)
 
     useEffect(() => {
@@ -163,4 +163,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Index

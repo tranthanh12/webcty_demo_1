@@ -2,7 +2,7 @@ import React from 'react'
 import style from './style.module.css'
 
 
-const index = () => {
+const Index = () => {
 
     return (
         <div className={style.box_introduce}>
@@ -41,13 +41,13 @@ const index = () => {
 
                     <div className={style.box_introduce_mid_giua}>
                         <img src="./images/banner/license-key 3.png" alt="" />
-                        <p className={style.text_bottom_center}>Quality, well-managed and try to best to scope customer's needs are our Definition of Done.</p>
+                        <p className={style.text_bottom_center}>Quality, well-managed and try to best to scope customers needs are our Definition of Done.</p>
                     </div>
 
                     <div className={style.box_introduce_mid_duoi}>
                         <img src="./images/banner/vr-headset.png" alt="" />
                         <p className={style.text_bottom}>
-                            Contributed by the industrys highly professional and trained individuals, SF-Technologies has made it’s mark as a well-established IT consultor.
+                            Contributed by the industrys highly professional and trained individuals, SF-Technologies has made itss mark as a well-established IT consultor.
                         </p>
                     </div>
                 </div>
@@ -76,4 +76,4 @@ const index = () => {
         </div>
     )
 }
-export default index
+export default Index
