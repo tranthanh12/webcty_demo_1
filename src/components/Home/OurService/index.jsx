@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import style from './style.module.css'
+import { useKeenSlider } from "keen-slider/react"
+import "keen-slider/keen-slider.min.css"
 
 const Index = () => {
     const [id, setId] = useState(1)
@@ -17,6 +19,29 @@ const Index = () => {
         }
     }, [id])
 
+    const [currentSlide, setCurrentSlide] = useState(0)
+    const [loaded, setLoaded] = useState(false)
+    const [sliderRef, instanceRef] = useKeenSlider({
+        initial: 0,
+        slideChanged(slider) {
+            setCurrentSlide(slider.track.details.rel)
+        },
+        created() {
+            setLoaded(true)
+        },
+    })
+
+    useEffect(() => {
+        let time = setInterval(() => {
+            setCurrentSlide(currentSlide + 1)
+            if (currentSlide == 2) {
+                setCurrentSlide(0)
+            }
+        }, 5000)
+        return function cleanup() {
+            clearInterval(time)
+        }
+    }, [currentSlide])
     return (
         <div className={style.box_service}>
             <div className={style.service_content}>
@@ -27,8 +52,13 @@ const Index = () => {
                             <p>Our Service</p>
                             <div className={style.inline_1}></div>
                         </div>
-                        {
-                            id == 1 ? <div className={style.service_item}>
+                    </div>
+                </div>
+
+                <div className="navigation-wrapper">
+                    <div ref={sliderRef} className="keen-slider">
+                        <div className="keen-slider__slide number-slide1">
+                            <div className={style.service_item}>
                                 <div className={style.item_c}>
                                     <div className={style.item}>
                                         <div className={style.item_content}>
@@ -68,7 +98,10 @@ const Index = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div> : id == 2 ? <div className={style.service_item}>
+                            </div>
+                        </div>
+                        <div className="keen-slider__slide number-slide2">
+                            <div className={style.service_item}>
                                 <div className={style.item_c}>
                                     <div className={style.item}>
                                         <div className={style.item_content}>
@@ -108,7 +141,10 @@ const Index = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div> : <div className={style.service_item}>
+                            </div>
+                        </div>
+                        <div className="keen-slider__slide number-slide3">
+                            <div className={style.service_item}>
                                 <div className={style.item_c}>
                                     <div className={style.item}>
                                         <div className={style.item_content}>
@@ -149,15 +185,26 @@ const Index = () => {
                                     </div>
                                 </div>
                             </div>
-                        }
+                        </div>
                     </div>
                 </div>
-
-                <div className={style.list_dot}>
-                    <div className={`${style['dot_item']} ${id == 1 ? style['active'] : ''}`} onClick={() => { setId(1) }}></div>
-                    <div className={`${style['dot_item']} ${id == 2 ? style['active'] : ''}`} onClick={() => { setId(2) }}></div>
-                    <div className={`${style['dot_item']} ${id == 3 ? style['active'] : ''}`} onClick={() => { setId(3) }}></div>
-                </div>
+                {loaded && instanceRef.current && (
+                    <div className="dots">
+                        {[
+                            ...Array(instanceRef.current.track.details.slides.length).keys(),
+                        ].map((idx) => {
+                            return (
+                                <button
+                                    key={idx}
+                                    onClick={() => {
+                                        instanceRef.current?.moveToIdx(idx)
+                                    }}
+                                    className={"dot" + (currentSlide === idx ? " active" : "")}
+                                ></button>
+                            )
+                        })}
+                    </div>
+                )}
             </div>
         </div>
     )
