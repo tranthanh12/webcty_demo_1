@@ -156,7 +156,7 @@ const Index = () => {
                                         <div className={style.item_content}>
                                         <div className={style.item_content_title}>Consultancy Services</div>
                                             <p>
-                                            If you aim to rely on IT consulting to keep pace with todays fast-moving IT landscape. If you feel you don't have the right internal resources, enlisting IT consulting services may be the missing piece to this picture — whether for a one-time project or ongoing strategic advice and guidance. At SF, our mission is solely focused on helping our clients leverage their technology investments to improve business performance.
+                                            If you aim to rely on IT consulting to keep pace with todays fast-moving IT landscape. If you feel you dont have the right internal resources, enlisting IT consulting services may be the missing piece to this picture — whether for a one-time project or ongoing strategic advice and guidance. At SF, our mission is solely focused on helping our clients leverage their technology investments to improve business performance.
                                             </p>
                                         </div>
 
