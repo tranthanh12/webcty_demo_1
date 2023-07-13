@@ -39,7 +39,7 @@ const Index = () => {
                                     <Link href="/recruitment"><span className={`menu__item__link menu__item__expandable-link ${ActiveBtn == '/recruitment' ? 'active_link' : ''}`} id="insight-option">Recruitment</span></Link>
                                 </li>
                                 <li className="menu__item menu__item--main">
-                                    <Link href='/contacts'><span className={`menu__item__link menu__item__expandable-link ${ActiveBtn == '/contacts' ? 'active_link' : ''}`}>Contact us</span></Link>
+                                    <Link href='/contacts'><span className={`menu__item__link menu__item__expandable-link ${ActiveBtn == '/contacts' ? 'active_link' : ''}`}>Contact Us</span></Link>
                                 </li>
                                 <li className="menu__item menu__item--main">
                                     <Link href='/product'><span className={`menu__item__link menu__item__expandable-link ${ActiveBtn == '/product' ? 'active_link' : ''}`}>Products</span></Link>

@@ -30,6 +30,20 @@
     margin-top: 5px;
 }
 
+.item_content_title {
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #667085;
+
+
+
+}
+
 .title_service {
     font-family: 'Inter';
     font-size: 48px;
@@ -40,7 +54,7 @@
     width: 275px;
     margin: auto;
     margin-top: 45px;
-    color:#25AAE1;
+    color: #25AAE1;
 }
 
 .service_item {
@@ -159,7 +173,7 @@
     .service_item {
         width: 100%;
     }
-    
+
 }
 
 @media screen and (min-width: 1050px) and (max-width: 1350px) {
@@ -216,7 +230,7 @@
     }
 }
 
-@media screen and (min-width: 550px) and (max-width: 1049px) { 
+@media screen and (min-width: 550px) and (max-width: 1049px) {
     .service_banner {
         height: 600px;
     }
@@ -244,7 +258,7 @@
     }
 }
 
-@media screen and (min-width: 1350px) { 
+@media screen and (min-width: 1350px) {
     .box_service {
         height: auto;
     }
