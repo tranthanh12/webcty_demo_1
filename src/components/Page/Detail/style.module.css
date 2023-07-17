@@ -1,10 +1,9 @@
 .recruitment {
     width: 100%;
-    background-color: #f5f5f7;
     padding: 40px 0px;
 }
 
-.box_detail_s {
+.box_detail_s, .btn_back{
     width: 80%;
     margin: auto;
     display: flex;
@@ -12,117 +11,254 @@
     justify-content: space-between;
 }
 
-.detail_text {
-    width: 100%;
-    background-color: #ffff;
-    padding: 20px 10px;
-}
-
-.item_recruitment {
-    width: 29%;
-}
-
-.title_recrutment {
-    font-weight: 600;
+.back {
     font-size: 20px;
+    font-weight: 700;
     line-height: 24px;
-    color: #13151f;
-    display: block;
-    margin-bottom: 14px;
-    word-break: break-word;
-    border-bottom: 1px solid #dddddd;
-}
-
-.subject_recrutment p {
-    font-size: 12px;
-    line-height: 150%;
-    color: #5e5e60;
-    display: block;
-    margin-bottom: 4px;
-    text-align: left;
-}
-
-.describe {
-    font-size: 11pt;
-    color: #13151f;
-    font-weight: 600;
-}
-
-.detail_content {
-    padding-left: 40px;
-}
-
-.detail_content ul {
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-.detail_content ul li {
+    letter-spacing: 0em;
     margin-bottom: 20px;
-}
-
-.detail_content ul li {
-    font-size: 11pt;
-    font-weight: 400
-}
-
-.other_recrutment p {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 34px;
-    color: #000000;
-    display: block;
-    margin-bottom: 8px;
-}
-
-.item {
-    background: #ffffff;
-    border-radius: 4px;
-    padding: 15px;
-    margin-bottom: 10px;
     cursor: pointer;
+    width: 86px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
 }
 
-.item p {
-    font-size: 14px;
-    line-height: 150%;
-    color: #5e5e60;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
 
-.item .title_other {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 34px;
-    color: #000000;
-    display: block;
-    margin-bottom: 8px;
+.Link {
+    text-decoration: none;
+    color: #000;
+    
 }
-
-@media screen and (min-width: 360px) and (max-width: 428px) {
-    .box_detail_s {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-    }
 
     .detail_text {
-        width: 100%;
-    }
-
-    .detail_content {
-        padding: 0px;
+        width: 70%;
+        background-color: #ffff;
+        padding: 20px 10px;
+        border-radius: 10px;
+        border: 1px solid #AABAD6;
     }
 
     .item_recruitment {
-        width: 100%;
-        margin-top: 20px;
+        width: 29%;
+        border-radius: 10px;
+        border: 1px solid #AABAD6;
+        height: 100%;
     }
-}
+
+    .title {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .title_text {
+        width: 80%;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .title_recrutment {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: 0em;
+        display: block;
+        margin-bottom: 14px;
+        word-break: break-word;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .sub_title {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+    }
+
+    .box_apply {
+        display: flex;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .btn_apply,
+    .btn_save {
+        width: 171px;
+        height: 40px;
+        padding: 3px 10px 3px 10px;
+        border-radius: 10px;
+        border: 1px solid #18ACEA;
+        text-align: center;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .btn_apply {
+        background-color: #25AAE1;
+        color: #FFFFFF;
+    }
+
+    .subject_recrutment p {
+        margin-left: 14px;
+        font-size: 20px;
+        line-height: 158%;
+        color: #667085;
+        display: block;
+        margin-bottom: 4px;
+        font-weight: 400;
+    }
+
+    .subject_infor {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .describe {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+    }
+
+    .title_job {
+        color: #18ACEA;
+    }
+
+    .detail_content ul {
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        -webkit-padding-start: 17px;
+    }
+
+    .detail_content ul li {
+        margin-bottom: 20px;
+    }
+
+    .detail_content,
+    .Welfare ul li {
+        font-size: 11pt;
+        font-weight: 400
+    }
+
+    .Welfare ul li {
+        display: flex;
+    }
+
+    .Welfare ul li img {
+        margin-right: 10px;
+        width: 10px;
+    }
+
+    .other_recrutment p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 34px;
+        color: #000000;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .item {
+        background: #ffffff;
+        border-radius: 4px;
+        padding: 15px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .item p {
+        font-size: 20px;
+        line-height: 150%;
+        color: #5e5e60;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .item .title_other {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        color: #18ACEA;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .other_recrutment {
+        padding: 20px 15px 0px 14px;
+    }
+
+    .other_recrutment p {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        color: #667085;
+        letter-spacing: 0em;
+    }
+
+    .share_poin {
+        padding: 15px 12px;
+    }
+
+    .title_share {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        margin-bottom: 10px;
+    }
+
+    .logo_share {
+        display: flex;
+    }
+
+    .logo_share div {
+        margin-right: 20px;
+    }
+
+    @media screen and (min-width: 360px) and (max-width: 428px) {
+        .box_detail_s {
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .detail_text {
+            width: 100%;
+        }
+
+        .detail_content {
+            padding: 0px;
+        }
+
+        .item_recruitment {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+    @media screen and (min-width: 550px) and (max-width: 1049px) {
+        .box_detail_s {
+            width: 95%;
+        }
+
+        .detail_text {
+            width: 50%;
+        }
+
+        .item_recruitment {
+            width: 47%;
+        }
+    }
